@@ -1,0 +1,9 @@
+GINA - Process
+#PROCESS
+  $PCS_TYPE
+    HEAT_TRANSPORT
+  $TIM_TYPE
+    STEADY
+;  $LEQS_OUTPUT
+#STOP
+

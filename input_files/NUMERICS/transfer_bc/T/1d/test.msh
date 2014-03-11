@@ -1,0 +1,25 @@
+#FEM_MSH
+ $PCS_TYPE
+  NO_PCS
+ $NODES
+  9 
+0 0 0 0
+1 .0075 0 0
+2 .015 0 0
+3 .0225 0 0
+4 .03 0 0
+5 .0375 0 0
+6 .045 0 0
+7 .0525 0 0
+8 .06 0 0
+ $ELEMENTS
+  8 
+0 0 line 0 1
+1 0 line 1 2
+2 0 line 2 3
+3 0 line 3 4
+4 0 line 4 5
+5 0 line 5 6
+6 0 line 6 7
+7 0 line 7 8
+#STOP

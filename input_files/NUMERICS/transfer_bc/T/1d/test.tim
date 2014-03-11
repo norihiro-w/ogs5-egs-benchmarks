@@ -1,0 +1,15 @@
+Gina - TIM-Datei
+#TIME_STEPPING
+  $PCS_TYPE
+    HEAT_TRANSPORT
+  $TIME_STEPS
+    1 1
+  $TIME_END
+    10000000
+  $TIME_START
+    0.0
+#STOP
+
+
+    HEAT_TRANSPORT
+

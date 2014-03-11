@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet timestep="0.000000000000e+00" group="" part="0" file="fault_mech0.vtu"/>
+    <DataSet timestep="8.640000000000e+03" group="" part="0" file="fault_mech1.vtu"/>
+  </Collection>
+</VTKFile>
