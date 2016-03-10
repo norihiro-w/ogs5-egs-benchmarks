@@ -1,0 +1,17 @@
+GINA - Initial Condition
+#INITIAL_CONDITION
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $PRIMARY_VARIABLE
+  TEMPERATURE1
+ $DIS_TYPE
+  FUNCTION
+ $GEO_TYPE
+ SUBDOMAIN 
+  2    
+  0 x+y+z
+  1 x
+#STOP
+
+  0 20.-(150/5500)*z+1*sin(3.1415*z*1./5500.)*cos(3.1415*y*1./5500.)   ; fault with 1 cell 1°C perturbation
+
