@@ -2,4 +2,7 @@ input_files/**/*.tec
 input_files/**/*.pvd
 input_files/**/*.vtu
 input_files/**/*.html
+input_files/**/*.log
+input_files/**/*.pet
+input_files/results
 
