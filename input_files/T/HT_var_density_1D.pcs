@@ -4,13 +4,13 @@ GeoSys-PCS: Processes ------------------------------------------------
   LIQUID_FLOW
  $NUM_TYPE
   NEW
- $ELEMENT_MATRIX_OUTPUT
-  1
+; $ELEMENT_MATRIX_OUTPUT
+;  1
 #PROCESS
  $PCS_TYPE
   HEAT_TRANSPORT
  $NUM_TYPE
   NEW
- $ELEMENT_MATRIX_OUTPUT
-  1
+; $ELEMENT_MATRIX_OUTPUT
+;  1
 #STOP
