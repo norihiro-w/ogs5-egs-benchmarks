@@ -5,6 +5,7 @@ input_files/**/*.vtk
 input_files/**/*.html
 input_files/**/*.log
 input_files/**/*.pet
+input_files/**/*.csv
 .vscode
 **/.vscode
 input_files/results
