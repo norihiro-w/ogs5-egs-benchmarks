@@ -1,8 +1,11 @@
 input_files/**/*.tec
 input_files/**/*.pvd
 input_files/**/*.vtu
+input_files/**/*.vtk
 input_files/**/*.html
 input_files/**/*.log
 input_files/**/*.pet
+.vscode
+**/.vscode
 input_files/results
 
