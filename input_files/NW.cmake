@@ -42,6 +42,31 @@ ADD_BENCHMARK ("NW" T/t3d/t3d "OGS_FEM_LIS" 1
 
 
 #################################################
+# M
+#################################################
+
+ADD_BENCHMARK ("NW" M/elastic/quad/rect "OGS_FEM_LIS" 1
+	M/elastic/quad/rect_node_1.csv)
+
+ADD_BENCHMARK ("NW" M/elastic/tri/rect "OGS_FEM_LIS" 1
+	M/elastic/tri/rect_node_1.csv)
+
+ADD_BENCHMARK ("NW" M/elastic/hex/cube "OGS_FEM_LIS" 1
+	M/elastic/hex/cube_node_1.csv)
+
+ADD_BENCHMARK ("NW" M/elastic/tet/cube "OGS_FEM_LIS" 1
+	M/elastic/tet/cube_node_1.csv)
+
+ADD_BENCHMARK ("NW" M/gravity/quad/rect "OGS_FEM_LIS" 1
+	M/gravity/quad/rect_node_1.csv)
+
+ADD_BENCHMARK ("NW" M/gravity/hex/cube "OGS_FEM_LIS" 1
+	M/gravity/hex/cube_node_1.csv)
+
+ADD_BENCHMARK ("NW" M/transient_ST/rect "OGS_FEM_LIS" 1
+	M/transient_ST/rect_time_UPPER_RIGHT.csv)
+
+#################################################
 # TH
 #################################################
 
