@@ -4,9 +4,9 @@ GeoSys-OUT: Output ------------------------------------------------
   TEMPERATURE1
  $GEO_TYPE
   DOMAIN 
-  $DAT_TYPE
-  TECPLOT
-$TIM_TYPE
+ $DAT_TYPE
+  CSV
+ $TIM_TYPE
   STEPS 1
 #STOP
 

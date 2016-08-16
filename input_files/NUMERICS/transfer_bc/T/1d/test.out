@@ -5,7 +5,7 @@ GeoSys-OUT: Output ------------------------------------------------
  $GEO_TYPE
   POLYLINE PLY_0
  $DAT_TYPE
-  TECPLOT
+  CSV
 $TIM_TYPE
   STEPS 1
 #STOP

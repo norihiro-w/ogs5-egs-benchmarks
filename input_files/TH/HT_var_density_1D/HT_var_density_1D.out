@@ -6,7 +6,7 @@ GeoSys-OUT: Output ------------------------------------------------
  $GEO_TYPE
   DOMAIN
  $DAT_TYPE
-  TECPLOT
+  CSV
  $TIM_TYPE
 STEPS 1
 #STOP

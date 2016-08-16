@@ -7,7 +7,7 @@ Gina - Out-Datei
  $GEO_TYPE
    POINT POINT_LEFT
  $DAT_TYPE
-   TECPLOT
+   CSV
  $TIM_TYPE
    STEPS 1
 #OUTPUT
@@ -18,7 +18,7 @@ Gina - Out-Datei
  $GEO_TYPE
    POINT POINT_RIGHT
  $DAT_TYPE
-   TECPLOT
+   CSV
  $TIM_TYPE
    STEPS 1
 #STOP

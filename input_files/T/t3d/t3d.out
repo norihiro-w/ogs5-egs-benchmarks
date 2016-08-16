@@ -5,7 +5,7 @@ Gina4 - Out-Datei
  $GEO_TYPE
    POINT POINT12
  $DAT_TYPE
-   TECPLOT
+   CSV
  $TIM_TYPE
    STEPS 2
 #STOP

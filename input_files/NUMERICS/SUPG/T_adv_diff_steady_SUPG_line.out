@@ -7,7 +7,7 @@ Gina - Out-Datei
   POLYLINE PLY_0
   ;DOMAIN 
  $DAT_TYPE
-   TECPLOT
+   CSV
    ;PVD
  $TIM_TYPE
    STEPS 1

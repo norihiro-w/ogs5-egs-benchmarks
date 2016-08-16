@@ -8,7 +8,8 @@ GeoSys-OUT: Output ------------------------------------------------
   POLYLINE ROCK
  $TIM_TYPE
   STEPS 1
-  
+ $DAT_TYPE
+  CSV 
   
  #OUTPUT
  $PCS_TYPE
@@ -19,6 +20,8 @@ GeoSys-OUT: Output ------------------------------------------------
   POINT POINT2
  $TIM_TYPE
   STEPS 1
+ $DAT_TYPE
+  CSV 
 
    #OUTPUT
  $PCS_TYPE
@@ -29,6 +32,8 @@ GeoSys-OUT: Output ------------------------------------------------
   POINT POINT3
  $TIM_TYPE
   STEPS 1
+ $DAT_TYPE
+  CSV 
   
    #OUTPUT
  $PCS_TYPE
@@ -39,6 +44,8 @@ GeoSys-OUT: Output ------------------------------------------------
   POINT POINT4
  $TIM_TYPE
   STEPS 1
+ $DAT_TYPE
+  CSV 
   
    #OUTPUT
  $PCS_TYPE
@@ -49,4 +56,6 @@ GeoSys-OUT: Output ------------------------------------------------
   POINT POINT5
  $TIM_TYPE
   STEPS 1
+ $DAT_TYPE
+  CSV 
 #STOP

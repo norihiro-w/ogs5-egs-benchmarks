@@ -8,6 +8,8 @@ GeoSys-OUT: Output ------------------------------------------------
   VELOCITY_Z1
  $GEO_TYPE
   POLYLINE V2
+ $DAT_TYPE
+  CSV
  $TIM_TYPE
   5.0E7
   1.0E8
@@ -28,6 +30,8 @@ GeoSys-OUT: Output ------------------------------------------------
   VELOCITY_Z1
  $GEO_TYPE
   POLYLINE FRACTURE
+ $DAT_TYPE
+  CSV
  $TIM_TYPE
   5.0E7
   1.0E8

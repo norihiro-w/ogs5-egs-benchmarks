@@ -5,14 +5,14 @@ GeoSys-OUT: Output ------------------------------------------------
  $GEO_TYPE
   POINT  POINT4
  $DAT_TYPE
-  TECPLOT
+  CSV
 #OUTPUT // profile
  $NOD_VALUES
   TEMPERATURE1
  $GEO_TYPE
   POLYLINE R
  $DAT_TYPE
-  TECPLOT
+  CSV
  $TIM_TYPE
   0
   0.5

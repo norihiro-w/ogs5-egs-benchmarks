@@ -9,7 +9,7 @@ GeoSys-OUT: Output ------------------------------------------------
  $GEO_TYPE
   POINT POINT18
  $DAT_TYPE
-  TECPLOT
+  CSV
  $TIM_TYPE
   STEPS 1
 #STOP

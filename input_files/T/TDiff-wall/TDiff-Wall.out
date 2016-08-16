@@ -4,9 +4,10 @@ GeoSys-OUT: Output ------------------------------------------------
   HEAT_TRANSPORT
  $NOD_VALUES
   TEMPERATURE1
- $ELE_VALUES
  $GEO_TYPE
   DOMAIN
+ $DAT_TYPE
+  CSV 
  $TIM_TYPE
   STEPS 50
 #STOP

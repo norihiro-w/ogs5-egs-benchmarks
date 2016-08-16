@@ -8,7 +8,7 @@ Gina - Out-Datei
  $GEO_TYPE
    DOMAIN 
  $DAT_TYPE
-   VTK
+   CSV
  $TIM_TYPE
    STEPS 1
 #STOP
