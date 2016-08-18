@@ -3,7 +3,7 @@ Gina - TIM-Datei
   $PCS_TYPE
     LIQUID_FLOW
   $TIME_STEPS
-    2000  100000
+    1000  100000
   $TIME_END
     1.e9
   $TIME_START
@@ -12,7 +12,7 @@ Gina - TIM-Datei
   $PCS_TYPE
     HEAT_TRANSPORT
   $TIME_STEPS
-    2000  100000
+    1000  100000
   $TIME_END
     1.e9
   $TIME_START

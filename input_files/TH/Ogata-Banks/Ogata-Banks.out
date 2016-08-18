@@ -3,9 +3,8 @@ GeoSys-OUT: Output ------------------------------------------------
  $NOD_VALUES
   PRESSURE1
   TEMPERATURE1
-  VELOCITY_X1
  $GEO_TYPE
-  POINT POINT1
+  POINT POINT2
  $DAT_TYPE
   CSV
  $TIM_TYPE

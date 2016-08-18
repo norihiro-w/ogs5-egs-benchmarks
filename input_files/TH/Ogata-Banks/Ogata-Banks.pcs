@@ -7,7 +7,4 @@ GeoSys-PCS: Processes ------------------------------------------------
 #PROCESS
  $PCS_TYPE
   HEAT_TRANSPORT
- $NUM_TYPE
-  NEW
-  1
 #STOP
