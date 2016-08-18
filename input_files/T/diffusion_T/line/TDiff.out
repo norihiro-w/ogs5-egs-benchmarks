@@ -1,19 +1,4 @@
-GeoSys-OUT: Output ------------------------------------------------
 #OUTPUT
- $PCS_TYPE
-  HEAT_TRANSPORT
- $NOD_VALUES
-  TEMPERATURE1
- $GEO_TYPE
-  POLYLINE ROCK
- $TIM_TYPE
-  STEPS 1
- $DAT_TYPE
-  CSV 
-  
- #OUTPUT
- $PCS_TYPE
-  HEAT_TRANSPORT
  $NOD_VALUES
   TEMPERATURE1
  $GEO_TYPE
@@ -23,9 +8,7 @@ GeoSys-OUT: Output ------------------------------------------------
  $DAT_TYPE
   CSV 
 
-   #OUTPUT
- $PCS_TYPE
-  HEAT_TRANSPORT
+#OUTPUT
  $NOD_VALUES
   TEMPERATURE1
  $GEO_TYPE
@@ -35,9 +18,7 @@ GeoSys-OUT: Output ------------------------------------------------
  $DAT_TYPE
   CSV 
   
-   #OUTPUT
- $PCS_TYPE
-  HEAT_TRANSPORT
+#OUTPUT
  $NOD_VALUES
   TEMPERATURE1
  $GEO_TYPE
@@ -46,10 +27,8 @@ GeoSys-OUT: Output ------------------------------------------------
   STEPS 1
  $DAT_TYPE
   CSV 
-  
-   #OUTPUT
- $PCS_TYPE
-  HEAT_TRANSPORT
+
+#OUTPUT
  $NOD_VALUES
   TEMPERATURE1
  $GEO_TYPE
@@ -58,4 +37,15 @@ GeoSys-OUT: Output ------------------------------------------------
   STEPS 1
  $DAT_TYPE
   CSV 
+
 #STOP
+
+#OUTPUT
+ $NOD_VALUES
+  TEMPERATURE1
+ $GEO_TYPE
+  DOMAIN
+ $TIM_TYPE
+  390625e+3
+ $DAT_TYPE
+  CSV 
