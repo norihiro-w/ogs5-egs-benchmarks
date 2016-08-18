@@ -100,18 +100,18 @@ ADD_BENCHMARK ("NW" TH/ex_hsa/ex_hsa "OGS_FEM_LIS" 1
 	TH/ex_hsa/ex_hsa_time_POINT_IN.csv
 	TH/ex_hsa/ex_hsa_time_POINT_OUT.csv)
 
-ADD_BENCHMARK ("NB" TH/HT_var_density_1D/HT_var_density_1D "OGS_FEM_LIS" 1
-	TH/HT_var_density_1D/HT_var_density_1D_domain_line.tec)
+ADD_BENCHMARK ("NB" TH/var_mfp/density/linear_T/HT_var_density_1D "OGS_FEM_LIS" 1
+	TH/var_mfp/density/linear_T/HT_var_density_1D_time_POINT2.csv)
 
-ADD_BENCHMARK ("NB" TH/Lauwerier_line/Lauwerier "OGS_FEM_LIS" 1
-	TH/Lauwerier_line/Lauwerier_ply_FRACTURE_t1.tec)
+ADD_BENCHMARK ("NB" TH/fracture_matrix/line/Lauwerier "OGS_FEM_LIS" 1
+	TH/fracture_matrix/line/Lauwerier_ply_FRACTURE_t1.tec)
 
-ADD_BENCHMARK ("NW" TH/Lauwerier_mixed/Lauwerier "OGS_FEM_LIS" 1
-	TH/Lauwerier_mixed/Lauwerier_ply_V2_t0.tec
-	TH/Lauwerier_mixed/Lauwerier_ply_FRACTURE_t1.tec)
+ADD_BENCHMARK ("NW" TH/fracture_matrix/line_quad/Lauwerier "OGS_FEM_LIS" 1
+	TH/fracture_matrix/line_quad/Lauwerier_ply_V2_t0.tec
+	TH/fracture_matrix/line_quad/Lauwerier_ply_FRACTURE_t1.tec)
 
-ADD_BENCHMARK ("NB" TH/Ogata-Banks/Ogata-Banks "OGS_FEM_LIS" 1
-	TH/Ogata-Banks/Ogata-Banks_time_POINT1.tec)
+ADD_BENCHMARK ("NB" TH/fracture/line/Ogata-Banks "OGS_FEM_LIS" 1
+	TH/fracture/line/Ogata-Banks_time_POINT2.csv)
 
 ADD_BENCHMARK ("NB" TH/Viscosity/viscosity_yaws "OGS_FEM_LIS" 1
 	TH/Viscosity/viscosity_yaws_ply_PLY_0_t0.tec)
