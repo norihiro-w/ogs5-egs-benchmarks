@@ -6,7 +6,7 @@ GeoSys-MAT-FP: Fluid Properties ------------------------------------
  $PCS_TYPE
   PRESSURE1
  $DENSITY
-  4 1000 300 -1e-3 
+  4 1000 300 -1e-3 ; rho(T) = rho_0*(1+beta_T*(T-T_0)) 
   $VISCOSITY
   1 0.001
  $SPECIFIC_HEAT_CAPACITY
