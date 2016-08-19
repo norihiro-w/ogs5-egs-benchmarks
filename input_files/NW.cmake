@@ -82,26 +82,29 @@ ADD_BENCHMARK ("NW" M/transient_ST/rect "OGS_FEM_LIS" 1
 #	TH/1d_thermal_expansion/exp1_time_POINT_LEFT.tec
 #	TH/1d_thermal_expansion/exp1_time_POINT_RIGHT.tec)
 
-ADD_BENCHMARK ("MCGB_EXCEEDING" TH/2units2faults/2units2faults "OGS_FEM_LIS" 1
-	TH/2units2faults/2units2faults_time_POINT15.tec
-	TH/2units2faults/2units2faults_time_POINT16.tec
-	TH/2units2faults/2units2faults_time_POINT17.tec)
+ADD_BENCHMARK ("MCGB_EXCEEDING" TH/app/2units2faults/2units2faults "OGS_FEM_LIS" 1
+	TH/app/2units2faults/2units2faults_time_POINT15.csv
+	TH/app/2units2faults/2units2faults_time_POINT16.csv
+	TH/app/2units2faults/2units2faults_time_POINT17.csv)
 
-ADD_BENCHMARK ("MCGB_EXCEEDING" TH/2units2faults/FCT/2units2faults_FCT "OGS_FEM_LIS" 1
-	TH/2units2faults/FCT/2units2faults_FCT_time_POINT15.tec
-	TH/2units2faults/FCT/2units2faults_FCT_time_POINT16.tec
-	TH/2units2faults/FCT/2units2faults_FCT_time_POINT17.tec)
+#ADD_BENCHMARK ("MCGB_EXCEEDING" TH/2units2faults/FCT/2units2faults_FCT "OGS_FEM_LIS" 1
+#	TH/2units2faults/FCT/2units2faults_FCT_time_POINT15.tec
+#	TH/2units2faults/FCT/2units2faults_FCT_time_POINT16.tec
+#	TH/2units2faults/FCT/2units2faults_FCT_time_POINT17.tec)
 
-ADD_BENCHMARK ("NW" TH/ex_hdr/ex_hdr "OGS_FEM_LIS" 1
-	TH/ex_hdr/ex_hdr_time_POINT_IN.csv
-	TH/ex_hdr/ex_hdr_time_POINT_OUT.csv)
+ADD_BENCHMARK ("NW" TH/app/ex_hdr/ex_hdr "OGS_FEM_LIS" 1
+	TH/app/ex_hdr/ex_hdr_time_POINT_IN.csv
+	TH/app/ex_hdr/ex_hdr_time_POINT_OUT.csv)
 
-ADD_BENCHMARK ("NW" TH/ex_hsa/ex_hsa "OGS_FEM_LIS" 1
-	TH/ex_hsa/ex_hsa_time_POINT_IN.csv
-	TH/ex_hsa/ex_hsa_time_POINT_OUT.csv)
+ADD_BENCHMARK ("NW" TH/app/ex_hsa/ex_hsa "OGS_FEM_LIS" 1
+	TH/app/ex_hsa/ex_hsa_time_POINT_IN.csv
+	TH/app/ex_hsa/ex_hsa_time_POINT_OUT.csv)
 
 ADD_BENCHMARK ("NB" TH/var_mfp/density/linear_T/HT_var_density_1D "OGS_FEM_LIS" 1
 	TH/var_mfp/density/linear_T/HT_var_density_1D_time_POINT2.csv)
+
+ADD_BENCHMARK ("NB" TH/var_mfp/viscosity/viscosity_yaws "OGS_FEM_LIS" 1
+	TH/var_mfp/viscosity/viscosity_yaws_time_POINT1.csv)
 
 ADD_BENCHMARK ("NW" TH/fracture_matrix/line_quad/Lauwerier "OGS_FEM_LIS" 1
 	TH/fracture_matrix/line_quad/Lauwerier_time_POINT1.csv
@@ -111,8 +114,6 @@ ADD_BENCHMARK ("NW" TH/fracture_matrix/line_quad/Lauwerier "OGS_FEM_LIS" 1
 ADD_BENCHMARK ("NB" TH/fracture/line/Ogata-Banks "OGS_FEM_LIS" 1
 	TH/fracture/line/Ogata-Banks_time_POINT2.csv)
 
-ADD_BENCHMARK ("NB" TH/Viscosity/viscosity_yaws "OGS_FEM_LIS" 1
-	TH/Viscosity/viscosity_yaws_ply_PLY_0_t0.tec)
 
 
 
