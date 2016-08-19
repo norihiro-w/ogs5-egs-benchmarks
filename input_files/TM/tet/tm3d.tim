@@ -4,7 +4,7 @@ Gina4 - TIM-Datei
   $PCS_TYPE
     DEFORMATION
   $TIME_STEPS
-    10 0.1
+    5 0.1
   $TIME_END
     10
   $TIME_START
@@ -13,7 +13,7 @@ Gina4 - TIM-Datei
   $PCS_TYPE
     HEAT_TRANSPORT
   $TIME_STEPS
-    10 0.1
+    5 0.1
   $TIME_END
     10
   $TIME_START
