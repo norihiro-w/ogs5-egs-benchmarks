@@ -3,16 +3,18 @@ Lauwerier-Problem
   $PCS_TYPE
     LIQUID_FLOW
   $TIME_STEPS
-   20 2E6
+   10 2E6
   $TIME_END
     1E99
   $TIME_START
     0.0
+#STOP
+
 #TIME_STEPPING
   $PCS_TYPE
     HEAT_TRANSPORT
   $TIME_STEPS
-   20 2E6
+   20 1E6
   $TIME_END
     1E99
   $TIME_START

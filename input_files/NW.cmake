@@ -104,8 +104,9 @@ ADD_BENCHMARK ("NB" TH/var_mfp/density/linear_T/HT_var_density_1D "OGS_FEM_LIS" 
 	TH/var_mfp/density/linear_T/HT_var_density_1D_time_POINT2.csv)
 
 ADD_BENCHMARK ("NW" TH/fracture_matrix/line_quad/Lauwerier "OGS_FEM_LIS" 1
-	TH/fracture_matrix/line_quad/Lauwerier_ply_V2_t0.tec
-	TH/fracture_matrix/line_quad/Lauwerier_ply_FRACTURE_t1.tec)
+	TH/fracture_matrix/line_quad/Lauwerier_time_POINT1.csv
+	TH/fracture_matrix/line_quad/Lauwerier_time_POINT25.csv
+	)
 
 ADD_BENCHMARK ("NB" TH/fracture/line/Ogata-Banks "OGS_FEM_LIS" 1
 	TH/fracture/line/Ogata-Banks_time_POINT2.csv)
