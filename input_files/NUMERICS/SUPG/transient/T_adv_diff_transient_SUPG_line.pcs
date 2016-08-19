@@ -1,0 +1,13 @@
+GeoSys-PCS: Processes ------------------------------------------------
+#PROCESS
+ $PCS_TYPE
+  LIQUID_FLOW
+ $TIM_TYPE
+  STEADY
+#PROCESS
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $NUM_TYPE
+  NEW
+  1
+#STOP

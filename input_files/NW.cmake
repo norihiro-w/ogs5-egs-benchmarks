@@ -156,35 +156,35 @@ ADD_BENCHMARK ("NW" TM/tet/tm3d "OGS_FEM_LIS" 1
 #################################################
 
 ADD_BENCHMARK ("NW" NUMERICS/FEM_FCT/mass_adv_line "OGS_FEM_LIS" 1
-	NUMERICS/FEM_FCT/mass_adv_line_ply_PLY_0_t0.tec)
+	NUMERICS/FEM_FCT/mass_adv_line_time_POINT2.csv
+	NUMERICS/FEM_FCT/mass_adv_line_time_POINT3.csv
+	)
 
 ADD_BENCHMARK ("NW" NUMERICS/FUNCTION/test "OGS_FEM_LIS" 1
-	NUMERICS/FEM_FCT/test_node1.csv)
+	NUMERICS/FUNCTION/test_node_1.csv)
 
 ADD_BENCHMARK ("NW" NUMERICS/PETREL/fault_mech "OGS_FEM_LIS" 1
-	NUMERICS/PETREL/fault_mech_1.vtu
 	NUMERICS/PETREL/fault_mech_PRESSURE1_1.pet)
 
-ADD_BENCHMARK ("NW" NUMERICS/SUPG/T_adv_diff_steady_SUPG_line "OGS_FEM_LIS" 1
-	NUMERICS/SUPG/T_adv_diff_steady_SUPG_line_ply_PLY_0_t0.tec)
+ADD_BENCHMARK ("NW" NUMERICS/SUPG/steady/T_adv_diff_steady_SUPG_line "OGS_FEM_LIS" 1
+	NUMERICS/SUPG/steady/T_adv_diff_steady_SUPG_line_node_1.csv)
 
-ADD_BENCHMARK ("NW_EXCEEDING" NUMERICS/SUPG/T_adv_diff_transient_SUPG_line "OGS_FEM_LIS" 1
-	NUMERICS/SUPG/T_adv_diff_transient_SUPG_line_ply_PLY_0_t1.tec
-	NUMERICS/SUPG/T_adv_diff_transient_SUPG_line_time_POINT1.tec)
+ADD_BENCHMARK ("NW" NUMERICS/SUPG/transient/T_adv_diff_transient_SUPG_line "OGS_FEM_LIS" 1
+	NUMERICS/SUPG/transient/T_adv_diff_transient_SUPG_line_time_POINT2.csv)
 
 ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/H/CONST/2units2faults "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/H/CONST/2units2faults_time_POINT18.tec)
+	NUMERICS/transfer_bc/H/CONST/2units2faults_time_POINT18.csv)
 
 ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/H/MAT/2units2faults "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/H/MAT/2units2faults_time_POINT18.tec)
+	NUMERICS/transfer_bc/H/MAT/2units2faults_time_POINT18.csv)
 
 ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/T/1d/test "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/T/1d/test_ply_PLY_0_t0.tec)
+	NUMERICS/transfer_bc/T/1d/test_ply_PLY_0_t0.csv)
 
 ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/T/2d/test "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/T/2d/test_ply_PLY_1_t0.tec)
+	NUMERICS/transfer_bc/T/2d/test_ply_PLY_1_t0.csv)
 
 ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/T/3d/test "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/T/3d/test_ply_PLY_1_t0.tec)
+	NUMERICS/transfer_bc/T/3d/test_ply_PLY_1_t0.csv)
 
 
