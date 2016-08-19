@@ -1,9 +1,5 @@
 GeoSys-MFP: Material Fluid Properties -------------
 #FLUID_PROPERTIES
- $FLUID_TYPE
-  LIQUID
- $DAT_TYPE
-  LIQUID
  $DENSITY
   1 998.
  $VISCOSITY

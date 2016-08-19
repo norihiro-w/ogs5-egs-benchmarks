@@ -122,10 +122,8 @@ ADD_BENCHMARK ("NB" TH/fracture/line/Ogata-Banks "OGS_FEM_LIS" 1
 #################################################
 
 ADD_BENCHMARK ("NW" HM/RELOAD/fault_mech "OGS_FEM_LIS" 1
-	HM/RELOAD/fault_mech_0.vtu
-	HM/RELOAD/fault_mech_1.vtu
-	HM/RELOAD/fault_mech_time_POINT0.tec
-	HM/RELOAD/fault_mech_time_POINT5.tec)
+	HM/RELOAD/fault_mech_time_POINT0.csv
+	HM/RELOAD/fault_mech_time_POINT5.csv)
 
 
 #################################################
