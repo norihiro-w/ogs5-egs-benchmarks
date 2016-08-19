@@ -17,6 +17,12 @@ ADD_BENCHMARK ("NW" H/strack/strack "OGS_FEM_LIS" 1
 	H/strack/strack_ele_1.csv
 	)
 
+ADD_BENCHMARK ("NW" H/transfer_bc/CONST/2units2faults "OGS_FEM_LIS" 1
+	H/transfer_bc/CONST/2units2faults_time_POINT18.csv)
+
+ADD_BENCHMARK ("NW" H/transfer_bc/MAT/2units2faults "OGS_FEM_LIS" 1
+	H/transfer_bc/MAT/2units2faults_time_POINT18.csv)
+
 
 #################################################
 # T
@@ -47,6 +53,16 @@ ADD_BENCHMARK ("NB" T/diffusion_T/tri/t_tri "OGS_FEM_LIS" 1
 
 ADD_BENCHMARK ("NW" T/diffusion_T/tet/t3d "OGS_FEM_LIS" 1
 	T/diffusion_T/tet/t3d_time_POINT12.csv)
+
+ADD_BENCHMARK ("NW" T/transfer_bc/1d/test "OGS_FEM_LIS" 1
+	T/transfer_bc/1d/test_node_1.csv)
+
+ADD_BENCHMARK ("NW" T/transfer_bc/2d/test "OGS_FEM_LIS" 1
+	T/transfer_bc/2d/test_node_1.csv)
+
+ADD_BENCHMARK ("NW" T/transfer_bc/3d/test "OGS_FEM_LIS" 1
+	T/transfer_bc/3d/test_node_1.csv)
+
 
 
 #################################################
@@ -171,20 +187,4 @@ ADD_BENCHMARK ("NW" NUMERICS/SUPG/steady/T_adv_diff_steady_SUPG_line "OGS_FEM_LI
 
 ADD_BENCHMARK ("NW" NUMERICS/SUPG/transient/T_adv_diff_transient_SUPG_line "OGS_FEM_LIS" 1
 	NUMERICS/SUPG/transient/T_adv_diff_transient_SUPG_line_time_POINT2.csv)
-
-ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/H/CONST/2units2faults "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/H/CONST/2units2faults_time_POINT18.csv)
-
-ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/H/MAT/2units2faults "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/H/MAT/2units2faults_time_POINT18.csv)
-
-ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/T/1d/test "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/T/1d/test_ply_PLY_0_t0.csv)
-
-ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/T/2d/test "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/T/2d/test_ply_PLY_1_t0.csv)
-
-ADD_BENCHMARK ("NW" NUMERICS/transfer_bc/T/3d/test "OGS_FEM_LIS" 1
-	NUMERICS/transfer_bc/T/3d/test_ply_PLY_1_t0.csv)
-
 
