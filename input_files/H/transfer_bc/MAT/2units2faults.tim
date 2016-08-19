@@ -1,0 +1,12 @@
+GeoSys-TIM: ------------------------------------------------
+#TIME_STEPPING
+  $PCS_TYPE
+    LIQUID_FLOW
+  $TIME_END
+    5e6
+;    4567884556
+  $TIME_START
+    0
+  $TIME_STEPS
+    5 1e6
+#STOP

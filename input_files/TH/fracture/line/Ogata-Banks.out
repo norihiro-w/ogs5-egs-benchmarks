@@ -1,0 +1,12 @@
+GeoSys-OUT: Output ------------------------------------------------
+#OUTPUT
+ $NOD_VALUES
+  PRESSURE1
+  TEMPERATURE1
+ $GEO_TYPE
+  POINT POINT2
+ $DAT_TYPE
+  CSV
+ $TIM_TYPE
+  STEPS 1
+#STOP
