@@ -3,13 +3,14 @@
 # H
 #################################################
 
-ADD_BENCHMARK ("NW" H/InclinedFeature/H_incline_45r_line "OGS_FEM_LIS" 1
-	H/InclinedFeature/H_incline_45r_line_node_1.csv
-	H/InclinedFeature/H_incline_45r_line_ele_1.csv)
+ADD_BENCHMARK ("NW" H/InclinedFeature/line/H_incline_45r_line "OGS_FEM_LIS" 1
+	H/InclinedFeature/line/H_incline_45r_line_node_1.csv
+	H/InclinedFeature/line/H_incline_45r_line_ele_1.csv
+	)
 
-ADD_BENCHMARK ("NW" H/InclinedFeature/H_incline_45r_quad "OGS_FEM_LIS" 1
-	H/InclinedFeature/H_incline_45r_quad_node_1.csv
-	H/InclinedFeature/H_incline_45r_quad_ele_1.csv
+ADD_BENCHMARK ("NW" H/InclinedFeature/quad/H_incline_45r_quad "OGS_FEM_LIS" 1
+	H/InclinedFeature/quad/H_incline_45r_quad_node_1.csv
+	H/InclinedFeature/quad/H_incline_45r_quad_ele_1.csv
 	)
 
 ADD_BENCHMARK ("NW" H/strack/strack "OGS_FEM_LIS" 1
@@ -187,4 +188,3 @@ ADD_BENCHMARK ("NW" NUMERICS/SUPG/steady/T_adv_diff_steady_SUPG_line "OGS_FEM_LI
 
 ADD_BENCHMARK ("NW" NUMERICS/SUPG/transient/T_adv_diff_transient_SUPG_line "OGS_FEM_LIS" 1
 	NUMERICS/SUPG/transient/T_adv_diff_transient_SUPG_line_time_POINT2.csv)
-
