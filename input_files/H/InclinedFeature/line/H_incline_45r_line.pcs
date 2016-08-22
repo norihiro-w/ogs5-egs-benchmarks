@@ -2,4 +2,5 @@ GINA - Process
 #PROCESS
   $PCS_TYPE
     LIQUID_FLOW
+  ;$LEQS_OUTPUT
 #STOP
