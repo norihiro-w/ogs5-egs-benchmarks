@@ -4,6 +4,8 @@
 #POLYLINE
  $NAME
   PLY_0
+ $EPSILON
+  1e-5
  $POINTS
   0
   1
