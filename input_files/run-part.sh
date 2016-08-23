@@ -10,7 +10,7 @@ function gen_part(){
 	echo "dir=${xpath}"
 	echo "project=${xpref}"
 	quadratic=""
-	if [ $xpcs == "M" ] || [ $xpcs == "HM" ] || [ $xpcs == "THM" ]; then
+	if [ $xpcs == "M" ] || [ $xpcs == "TM" ] || [ $xpcs == "HM" ] || [ $xpcs == "THM" ]; then
 		quadratic="-q"
 		echo "quadratic"
 	fi
