@@ -24,6 +24,7 @@ Gina4 - Out-Datei
    CSV
  $TIM_TYPE
    STEPS 1
+#STOP
 
 #OUTPUT
  $NOD_VALUES

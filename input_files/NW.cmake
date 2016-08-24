@@ -167,6 +167,9 @@ ADD_BENCHMARK ("NW" TM/axi/tri/TM_axi "OGS_FEM_LIS" 1
 ADD_BENCHMARK ("NW" TM/tet/tm3d "OGS_FEM_LIS" 1
 	TM/tet/tm3d_time_POINT12.csv)
 
+ADD_BENCHMARK ("NW" TM/hex/tm3d "" 1
+	TM/hex/tm3d_time_POINT12.csv)
+
 
 #################################################
 # NUMERICS
