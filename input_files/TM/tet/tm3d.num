@@ -4,7 +4,7 @@
  $LINEAR_SOLVER 
 ; method error_tolerance max_iterations theta precond storage
   2      1 1.e-10      3000           1.0   2       4
-$ELE_GAUSS_POINTS
+ $ELE_GAUSS_POINTS
   2
 
 #NUMERICS
@@ -12,7 +12,7 @@ $ELE_GAUSS_POINTS
   DEFORMATION
  $LINEAR_SOLVER 
 ; method error_tolerance max_iterations theta precond storage
-  2      1 1.e-10       3000           1.0   2       4
+  2      1 1.e-12       3000           1.0   2       4
 $ELE_GAUSS_POINTS
   2
 
