@@ -1,0 +1,12 @@
+#PROCESS
+ $PCS_TYPE
+  LIQUID_FLOW
+#PROCESS
+ $PCS_TYPE
+  DEFORMATION
+#STOP
+
+ $NUM_TYPE
+  DirectPc
+  dPcdSwGradSnw
+

@@ -1,0 +1,32 @@
+GeoSys-TIM: ------------------------------------------------
+#TIME_STEPPING
+ $PCS_TYPE
+  LIQUID_FLOW
+ $TIME_START
+  0.0e0
+ $TIME_END
+  1500.0e0
+ $TIME_STEPS
+  1 1e-2
+  2 1e-4
+  1 0.019863791555e-02
+#STOP
+
+#TIME_STEPPING
+ $PCS_TYPE
+  DEFORMATION
+ $TIME_START
+  0.0e0
+ $TIME_END
+  1500.0e0
+#STOP
+
+ $TIME_CONTROL
+  DYNAMIC_VARIABLE
+; error_method -- dt0 -- min_dt -- max_dt -- tol  
+  LMAX            0.01    0.0001     1.0e12    1.0e4  
+
+ $TIME_CONTROL
+  DYNAMIC_PRESSURE
+; dt0 -- min_dt -- max_dt -- tol
+  0.01    .0001      1.0e12    1.0e4

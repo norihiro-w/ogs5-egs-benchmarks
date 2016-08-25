@@ -1,0 +1,13 @@
+GeoSys-MAT-SP: Solid Properties ------------------------------------
+#SOLID_PROPERTIES
+  $ELASTICITY
+    POISSON 0.20
+    YOUNGS_MODULUS
+    1   14.4e9
+  $DENSITY
+    1   2200.0
+  $BIOT_CONSTANT
+    0.8
+  $GRAVITY ; fabs(gravity_constant) for the solid (OGS default = 0.0)
+    0
+#STOP

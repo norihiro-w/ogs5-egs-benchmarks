@@ -1,0 +1,22 @@
+GeoSys-MMP: Material Medium Properties ------------------------------------------------
+#MEDIUM_PROPERTIES
+ $GEOMETRY_DIMENSION
+  2
+ $GEOMETRY_AREA
+  1.0
+ $POROSITY
+  1 0.19
+ $TORTUOSITY
+  1 1.0
+ $PERMEABILITY_TENSOR
+  ISOTROPIC 1.9e-13
+ $STORAGE
+  7 0.8 1 8.0 ; 7, biot, B, drained bulk modulus
+  ;1 1e-10
+#STOP
+
+ $STORAGE
+  2
+
+
+

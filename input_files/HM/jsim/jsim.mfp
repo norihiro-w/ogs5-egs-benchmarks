@@ -1,0 +1,26 @@
+GeoSys-MFP: Material Fluid Properties -------------
+#FLUID_PROPERTIES
+ $DENSITY ; Constant
+; model -- rho
+  1        997.05
+ $COMPRESSIBILITY_P
+  1 4.3922907488986785e-07
+;  1           3.4e-6
+ $VISCOSITY
+   1  8.9008e-4
+ $GRAVITY
+   0.0
+#STOP
+
+
+ $DENSITY ; rho(P) = rho0 * (1.0 + betaP*(P - P0))
+; model -- rho0 -- P0 -- drho/dp
+  2        997.05  0.0   3.4e-7
+
+ $COMPRESSIBILITY
+; dP model -- drho/dp -- dT model -- drho/dT
+  1           3.4e-7     0           0.0
+
+ $COMPRESSIBILITY
+; dP model -- drho/dp -- dT model -- drho/dT
+  1           8.4e-7     0           0.0
