@@ -9,6 +9,7 @@
   CSV
  $TIM_TYPE
   STEPS 1
+#STOP
 
 #OUTPUT
  $NOD_VALUES
