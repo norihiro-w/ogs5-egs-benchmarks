@@ -70,17 +70,23 @@ ADD_BENCHMARK ("NW" T/transfer_bc/3d/test "OGS_FEM_LIS" 1
 # M
 #################################################
 
-ADD_BENCHMARK ("NW" M/elastic/quad/rect "OGS_FEM_LIS" 1
-	M/elastic/quad/rect_node_1.csv)
+ADD_BENCHMARK ("NW" M/elastic_t/quad/rect "OGS_FEM_LIS" 1
+	M/elastic_t/quad/rect_node_1.csv)
 
-ADD_BENCHMARK ("NW" M/elastic/tri/rect "OGS_FEM_LIS" 1
-	M/elastic/tri/rect_node_1.csv)
+ADD_BENCHMARK ("NW" M/elastic_t/tri/rect "OGS_FEM_LIS" 1
+	M/elastic_t/tri/rect_node_1.csv)
 
-ADD_BENCHMARK ("NW" M/elastic/hex/cube "OGS_FEM_LIS" 1
-	M/elastic/hex/cube_node_1.csv)
+ADD_BENCHMARK ("NW" M/elastic_t/hex/cube "OGS_FEM_LIS" 1
+	M/elastic_t/hex/cube_node_1.csv)
 
-ADD_BENCHMARK ("NW" M/elastic/tet/cube "OGS_FEM_LIS" 1
-	M/elastic/tet/cube_node_1.csv)
+ADD_BENCHMARK ("NW" M/elastic_t/tet/cube "OGS_FEM_LIS" 1
+	M/elastic_t/tet/cube_node_1.csv)
+
+ADD_BENCHMARK ("NW" M/elastic_t_linear/hex/cube "OGS_FEM_LIS" 1
+	M/elastic_t_linear/hex/cube_node_1.csv)
+
+ADD_BENCHMARK ("NW" M/elastic_u/quad/rect "OGS_FEM_LIS" 1
+	M/elastic_u/quad/rect_node_1.csv)
 
 ADD_BENCHMARK ("NW" M/gravity/quad/rect "OGS_FEM_LIS" 1
 	M/gravity/quad/rect_node_1.csv)
