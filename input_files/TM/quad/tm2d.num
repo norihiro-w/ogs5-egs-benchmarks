@@ -1,3 +1,5 @@
+$OVERALL_COUPLING
+ 1  5
 #NUMERICS
  $PCS_TYPE
   HEAT_TRANSPORT
@@ -6,6 +8,9 @@
   2      1 1.e-012       1000           1   2       4
 $ELE_GAUSS_POINTS
   3
+ $COUPLING_CONTROL  
+; error_method --  tol
+  LMAX             1e-3
 
 #NUMERICS
  $PCS_TYPE
@@ -19,5 +24,8 @@ $ELE_GAUSS_POINTS
   
  $ELE_GAUSS_POINTS
   3
+ $COUPLING_CONTROL  
+; error_method --  tol
+  LMAX             1e-6
 
 #STOP
