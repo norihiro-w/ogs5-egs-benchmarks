@@ -1,0 +1,16 @@
+GeoSys-MAT-SP: Solid Properties ------------------------------------
+#SOLID_PROPERTIES
+  $ELASTICITY
+    POISSON 0.25
+    YOUNGS_MODULUS
+    1   25e9
+  $DENSITY
+    1   0
+  $THERMAL
+    EXPANSION  3e-5
+    CAPACITY 
+      1 0.0
+    CONDUCTIVITY 
+      1  1.0
+#STOP
+

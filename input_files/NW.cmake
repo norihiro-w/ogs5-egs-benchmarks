@@ -159,8 +159,8 @@ ADD_BENCHMARK ("NW" HM/RELOAD/fault_mech "OGS_FEM_LIS" 1
 # TM
 #################################################
 
-#ADD_BENCHMARK ("NW" TM/tm_01_3Du "OGS_FEM_LIS" 1
-#	TM/tm_01_3Du_domain_hex.tec)
+ADD_BENCHMARK ("NW" TM/BMB2_2.8.1/quad/tm "OGS_FEM_LIS" 1
+	TM/BMB2_2.8.1/quad/tm_node_1.csv)
 
 ADD_BENCHMARK ("NW" TM/quad/tm2d "OGS_FEM_LIS" 1
 	TM/quad/tm2d_time_POINT2.csv
@@ -172,9 +172,6 @@ ADD_BENCHMARK ("NW" TM/quad/tm2d "OGS_FEM_LIS" 1
 ADD_BENCHMARK ("NW" TM/axi/tri/TM_axi "OGS_FEM_LIS" 1
 	TM/axi/tri/TM_axi_node_1.csv
 	)
-
-#ADD_BENCHMARK ("NW_LONG" TM/tm_02_3Du "OGS_FEM_LIS" 1
-#	TM/tm_02_3Du_domain_hex.tec)
 
 ADD_BENCHMARK ("NW" TM/tet/tm3d "OGS_FEM_LIS" 1
 	TM/tet/tm3d_time_POINT12.csv)
