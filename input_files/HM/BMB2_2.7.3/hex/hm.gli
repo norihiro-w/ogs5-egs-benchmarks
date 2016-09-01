@@ -1,0 +1,106 @@
+#POINTS
+0 0 0 0 
+1 1 0 0 
+2 1 1 0 
+3 0 1 0 
+4 0 0 1 
+5 1 0 1 
+6 1 1 1 
+7 0 1 1 
+#POLYLINE
+ $NAME
+  top
+ $POINTS
+  4
+  5
+  6
+  7
+  4
+#POLYLINE
+ $NAME
+  bottom
+ $POINTS
+  0
+  1
+  2
+  3
+  0
+#POLYLINE
+ $NAME
+  left
+ $POINTS
+  0
+  3
+  7
+  4
+  0
+#POLYLINE
+ $NAME
+  right
+ $POINTS
+  1
+  2
+  6
+  5
+  1
+#POLYLINE
+ $NAME
+  front
+ $POINTS
+  0
+  1
+  5
+  4
+  0
+#POLYLINE
+ $NAME
+  back
+ $POINTS
+  3
+  2
+  6
+  7
+  3
+#SURFACE
+ $NAME
+  top
+ $POLYLINES
+  top
+ $TYPE
+  0
+#SURFACE
+ $NAME
+  bottom
+ $POLYLINES
+  bottom
+ $TYPE
+  0
+#SURFACE
+ $NAME
+  left
+ $POLYLINES
+  left
+ $TYPE
+  0
+#SURFACE
+ $NAME
+  right
+ $POLYLINES
+  right
+ $TYPE
+  0
+#SURFACE
+ $NAME
+  front
+ $POLYLINES
+  front
+ $TYPE
+  0
+#SURFACE
+ $NAME
+  back
+ $POLYLINES
+  back
+ $TYPE
+  0
+#STOP

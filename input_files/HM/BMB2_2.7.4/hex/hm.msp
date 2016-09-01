@@ -1,0 +1,12 @@
+GeoSys-MAT-SP: Solid Properties ------------------------------------
+#SOLID_PROPERTIES
+  $DENSITY
+    1   2500
+  $ELASTICITY
+    POISSON 0.25
+    YOUNGS_MODULUS
+    1   10e9
+  $BIOT_CONSTANT
+    1.0
+#STOP
+

@@ -1,0 +1,30 @@
+$OVERALL_COUPLING     
+ 1  15
+#NUMERICS
+ $PCS_TYPE
+  LIQUID_FLOW
+ $LINEAR_SOLVER 
+; solver -- error method -- tolerance -- max iter -- theta -- precon -- storage
+  9       1               1.0e-12      1000        1.0      1       4
+ $COUPLING_CONTROL  
+; error_method --  tol Pw
+  LMAX             100.0
+ $ELE_GAUSS_POINTS
+  3
+
+#NUMERICS
+ $PCS_TYPE
+  DEFORMATION
+ $LINEAR_SOLVER
+; solver -- error method -- tolerance -- max iter -- theta -- precon -- storage
+  2       1               1.0e-12      1000        1.0      1       4
+ $NON_LINEAR_SOLVER
+  NEWTON 1e-4 1e-10 5 0
+ $COUPLING_CONTROL  
+; error_method --  tol u
+  LMAX           1.0e-6 
+#STOP
+
+
+
+  ENORM           1.0e-4 

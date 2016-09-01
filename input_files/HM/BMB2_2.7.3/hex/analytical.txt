@@ -1,0 +1,8 @@
+p0 = 20e6
+E = 10e9
+nu = 0.25
+u_x(x)=(1-2*nu)*p0/E*x
+u_y(y)=(1-2*nu)*p0/E*y
+u_z(z)=(1-2*nu)*p0/E*z
+strain_ii=(1-2nu)/p0/E
+stress = p0
