@@ -7,7 +7,7 @@ GeoSys-TIM: ------------------------------------------------
  $TIME_END
   10.0
  $TIME_STEPS
-  10 0.1
+  10 0.5
 #STOP
 
 #TIME_STEPPING
