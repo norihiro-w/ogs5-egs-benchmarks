@@ -1,0 +1,23 @@
+GeoSys-TIM: ------------------------------------------------
+#TIME_STEPPING
+ $PCS_TYPE
+  LIQUID_FLOW
+ $TIME_START
+  0.0e0
+ $TIME_END
+  1
+ $TIME_STEPS
+  50	0.002
+#STOP
+
+  25 0.004
+
+#TIME_STEPPING
+ $PCS_TYPE
+  DEFORMATION
+ $TIME_START
+  0.0e0
+ $TIME_END
+  1500.0e0
+#STOP
+
