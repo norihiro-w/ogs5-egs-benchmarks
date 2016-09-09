@@ -1,0 +1,12 @@
+#FLUID_PROPERTIES		; 1st test: all constants.
+ $FLUID_TYPE
+  LIQUID
+ $DENSITY
+  4	1000. 	20.	-4.3e-4  ;rho_0; t_0 in °C??; Beta
+ $VISCOSITY
+  1	1.e-3
+ $SPECIFIC_HEAT_CAPACITY
+  1 4.20000e+003
+ $HEAT_CONDUCTIVITY
+  1 6.500000e-001
+#STOP 
