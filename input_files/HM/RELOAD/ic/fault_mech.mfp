@@ -1,0 +1,7 @@
+GeoSys-MFP: Material Fluid Properties -------------
+#FLUID_PROPERTIES
+ $DENSITY
+  1 998.
+ $VISCOSITY
+  1 1.000000000000e-003
+#STOP

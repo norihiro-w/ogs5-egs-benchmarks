@@ -1,0 +1,47 @@
+ #INITIAL_CONDITION
+ $PCS_TYPE
+  LIQUID_FLOW
+ $PRIMARY_VARIABLE
+  PRESSURE1
+$DIS_TYPE
+  FUNCTION  
+$GEO_TYPE
+ SUBDOMAIN 
+  10 
+   0 0.+-9810*z 
+   1 0.+-9810*z 
+   2 0.+-9810*z 
+   3 0.+-9810*z 
+   4 0.+-9810*z 
+   5 0.+-9810*z 
+   6 0.+-9810*z 
+   7 0.+-9810*z 
+   8 0.+-9810*z 
+   9 0.+-9810*z 
+
+#STOP  
+
+
+
+
+    
+#INITIAL_CONDITION
+	$PCS_TYPE
+		LIQUID_FLOW
+			$PRIMARY_VARIABLE
+				PRESSURE1
+			$GEO_TYPE
+				SUB_DOMAIN 
+					1
+					2 1e8 
+					
+#INITIAL_CONDITION
+ $PCS_TYPE
+  LIQUID_FLOW
+ $PRIMARY_VARIABLE
+  PRESSURE1
+ $GEO_TYPE
+  DOMAIN 
+ $DIS_TYPE
+  RESTART press.rfr  
+  	 
