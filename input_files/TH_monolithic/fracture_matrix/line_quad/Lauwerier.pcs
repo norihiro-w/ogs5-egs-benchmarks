@@ -1,0 +1,5 @@
+Lauwerier-Problem
+#PROCESS
+ $PCS_TYPE
+  TH_MONOLITHIC
+#STOP

@@ -1,0 +1,13 @@
+Lauwerier-Problem
+#POINTS
+0	0	0	0 
+1	50	0	0
+
+#POLYLINE
+ $NAME
+  FRACTURE
+ $POINTS
+  0
+  1
+
+#STOP

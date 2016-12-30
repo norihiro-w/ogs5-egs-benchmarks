@@ -1,0 +1,13 @@
+Gina - TIM-Datei
+#TIME_STEPPING
+  $PCS_TYPE
+    TH_MONOLITHIC
+  $TIME_STEPS
+    1000  100000
+;    2  100000
+;    1000  100000
+  $TIME_END
+    1.e9
+  $TIME_START
+    0
+#STOP
