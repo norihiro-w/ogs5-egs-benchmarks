@@ -1,3 +1,6 @@
+$OVERALL_COUPLING
+;min_iter -- max_iter
+ 1           25
 #NUMERICS
  $PCS_TYPE
   LIQUID_FLOW
@@ -7,6 +10,9 @@
  $NON_LINEAR_SOLVER  
  ; method error_tolerance max_iterations relaxation
   PICARD 1e-3            25             0.0
+ $COUPLING_CONTROL
+;error method -- tolerances
+  LMAX 10
 #NUMERICS
  $PCS_TYPE
   HEAT_TRANSPORT
@@ -18,5 +24,8 @@
  $NON_LINEAR_SOLVER  
  ; method error_tolerance max_iterations relaxation
   PICARD 1e-3            25             0.0
+ $COUPLING_CONTROL
+;error method -- tolerances
+  LMAX 1e-3
 #STOP
 
