@@ -4,4 +4,7 @@
  $LINEAR_SOLVER 
 ; method error_type error_tolerance max_iterations theta precond storage
   9      0 1.e-012       1000           1.0   2       4
+ $NON_LINEAR_SOLVER  
+; method tol tol_local max_iterations relaxation
+  NEWTON 1e-8  1e0            15             0.0
 #STOP
