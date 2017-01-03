@@ -1,0 +1,11 @@
+Lauwerier-Problem
+#TIME_STEPPING
+  $PCS_TYPE
+    TH_MONOLITHIC
+  $TIME_STEPS
+   10 2E6
+  $TIME_END
+    1E99
+  $TIME_START
+    0.0
+#STOP

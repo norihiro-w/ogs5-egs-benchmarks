@@ -138,6 +138,36 @@ ADD_BENCHMARK ("NB" TH/fracture/line/Ogata-Banks "OGS_FEM_LIS" 2
 	TH/fracture/line/Ogata-Banks_time_POINT2.csv)
 
 
+#################################################
+# TH with monolithic coupling
+#################################################
+
+ADD_BENCHMARK ("MCGB_EXCEEDING" TH_monolithic/app/2units2faults/2units2faults "OGS_FEM_LIS" 2
+	TH_monolithic/app/2units2faults/2units2faults_time_POINT15.csv
+	TH_monolithic/app/2units2faults/2units2faults_time_POINT16.csv
+	TH_monolithic/app/2units2faults/2units2faults_time_POINT17.csv)
+
+ADD_BENCHMARK ("NW" TH_monolithic/app/ex_hdr/ex_hdr "OGS_FEM_LIS" 2
+	TH_monolithic/app/ex_hdr/ex_hdr_time_POINT_IN.csv
+	TH_monolithic/app/ex_hdr/ex_hdr_time_POINT_OUT.csv)
+
+ADD_BENCHMARK ("NW" TH_monolithic/app/ex_hsa/ex_hsa "OGS_FEM_LIS" 2
+	TH_monolithic/app/ex_hsa/ex_hsa_time_POINT_IN.csv
+	TH_monolithic/app/ex_hsa/ex_hsa_time_POINT_OUT.csv)
+
+ADD_BENCHMARK ("NW" TH_monolithic/var_mfp/density/linear_T/HT_var_density_1D "OGS_FEM_LIS" 2
+	TH_monolithic/var_mfp/density/linear_T/HT_var_density_1D_time_POINT2.csv)
+
+ADD_BENCHMARK ("NW" TH_monolithic/var_mfp/viscosity/viscosity_yaws "OGS_FEM_LIS" 2
+	TH_monolithic/var_mfp/viscosity/viscosity_yaws_time_POINT1.csv)
+
+ADD_BENCHMARK ("NW" TH_monolithic/fracture_matrix/line_quad/Lauwerier "OGS_FEM_LIS" 2
+	TH_monolithic/fracture_matrix/line_quad/Lauwerier_time_POINT1.csv
+	TH_monolithic/fracture_matrix/line_quad/Lauwerier_time_POINT25.csv
+	)
+
+ADD_BENCHMARK ("NW" TH_monolithic/fracture/line/Ogata-Banks "OGS_FEM_LIS" 2
+	TH_monolithic/fracture/line/Ogata-Banks_time_POINT2.csv)
 
 
 #################################################

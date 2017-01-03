@@ -1,0 +1,15 @@
+GeoSys-TIM: ------------------------------------------------
+#TIME_STEPPING
+  $PCS_TYPE
+    TH_MONOLITHIC
+  $TIME_END
+    4567884556
+  $TIME_START
+    0
+$TIME_STEPS
+1	1
+1	2.71
+1	7.2086
+1	18.814446
+1	48.16498176
+#STOP
