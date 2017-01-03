@@ -8,7 +8,7 @@
   2
  $NON_LINEAR_SOLVER  
  ; method error_tolerance max_iterations relaxation
-  PICARD 1e-3            1             0.0
+  NEWTON 1e-8  1e0            5             0.0
 ; $ELE_SUPG
 ;  1 0 0
 ; method(0:disable,1:coeff-space,2:coeff-space&time) length_mode(0:max,1:min,2:avg) ele_diffusivity_mode(0:max,1:min,2:mag)
